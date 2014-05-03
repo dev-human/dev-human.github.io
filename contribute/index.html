@@ -186,6 +186,13 @@ Your article content goes here. Do wathever you want with markdown.
 
 </code></pre>
 
+<ul>
+<li><strong>title</strong>: The Article title</li>
+<li><strong>author</strong> : Your author <em>handle</em>. This will be used to identify you as author, when you add yourself to the <strong>authors list</strong>.</li>
+<li><strong>categories</strong> : Post categories. Its preferred that you use 1 to 3 categories.</li>
+<li><strong>tags</strong>: Post tags. Use as many as you feel like.</li>
+</ul>
+
 <p>Note the <strong>use</strong> part. These are global variables that we need in our template, to show the whole list of categories and tags.
 It should be provided as-is, with no changes. We will work on a fix so you won't need to do this every time you write a new post.</p>
 
@@ -198,9 +205,29 @@ extension and provide a pretty neat markdown editor so you can write and preview
 
 <p><img src="/media/contributing/gh-editmd.png" alt="Edit the file" /></p>
 
-<p>When you are done, commit the changes, and afterwards, open a pull request to <strong>dev-human/dev-human</strong>.</p>
-
 <p>If you need some help with markdown, have a look at this very useful <a href="http://daringfireball.net/projects/markdown/syntax">markdown syntax guide</a>.</p>
+
+<h3>5. Add your info to "authors" (optional)</h3>
+
+<p>Edit the file <code>app/sculpin_site.hml</code> in your forked repository. This configuration file has the list with all authors.
+This step is not mandatory, but it will add at the end of the post a nice box with information about the article author, <strong>YOU</strong>.
+You just need to add an item to the array, using the same author handle you used for the article meta data.</p>
+
+<p>It should look similar to this:</p>
+
+<pre><code>  erikaheidi:
+      name: Erika Heidi
+      url: http://erikaheidi.com
+      avatar: https://pbs.twimg.com/profile_images/451042845206380545/0GHPdHhs.jpeg
+      twitter: http://twitter.com/erikaheidi
+      bio: independent web developer &amp;&amp; open source enthusiast.
+</code></pre>
+
+<p>Naturally, you only need to do this step once.</p>
+
+<h3>6. Pull Request</h3>
+
+<p>When you are done, open a pull request to <strong>dev-human/dev-human</strong>.</p>
             </div>
         </div><!--/.col-md-8-->
     </div><!--/.row-->
