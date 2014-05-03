@@ -99,7 +99,7 @@
         <h3>Tag Cloud</h3>
         <ul class="tag-cloud">
                         <li><a class="btn btn-xs btn-primary" href="/blog/tags/release">release</a></li>
-                        <li><a class="btn btn-xs btn-primary" href="/blog/tags/participation">participation</a></li>
+                        <li><a class="btn btn-xs btn-primary" href="/blog/tags/contribute">contribute</a></li>
                     </ul>
     </div><!--/.tags-->
 
@@ -123,6 +123,64 @@ You don't even need to clone the repository in your local machine - all can be d
 
 <p>If you want to preview your article in the exact way it's going to be published on the website, than you'll need to
 have PHP and Sculpin installed in your local machine.</p>
+
+<h2>Detailed Instructions</h2>
+
+<h3>1. Fork the project to your GH account</h3>
+
+<p>Head to our main repository on GitHub: <a href="https://github.com/dev-human/dev-human">https://github.com/dev-human/dev-human</a>.
+Click on the "Fork" button and follow the instructions.</p>
+
+<h3>2. Navigate to the "_posts" folder, in your forked repo</h3>
+
+<p>Go to your forked repository. Navigate to the folder <code>source/_posts</code>. You'll see a small plus sign icon that you can use to create a new file in this folder:</p>
+
+<p><img src="/media/contributing/gh_create_new_file.png" alt="Add a file" /></p>
+
+<p>Click on this button and a new page will show up where you can define the file name and edit its contents. Now you'll need to follow some basic guidelines in order to create your article.</p>
+
+<h3>3. Set the File Name and Article Meta Data</h3>
+
+<p>First of all, the file name must specify the <strong>date</strong>, followed by a name that will be used as the article <em>slug</em>.
+So, let's take for example the initial article, "Hello Humans".</p>
+
+<p>The file name is <code>2014-05-03-hello-humans.md</code> . This will set the article date for May 03, 2014, and the URL for the
+article - it will be <code>http://dev-human.com/blog/2014/05/03/hello-humans</code> .</p>
+
+<p>Now, you need to provide some information, like the article title and your author handle. Use this as a template:</p>
+
+<pre><code>---
+title: Hello Humans!
+author: erikaheidi
+categories:
+    - News
+tags:
+    - release
+    - participation
+use:
+    - posts_tags
+    - posts_categories
+---
+
+Your article content goes here. Do wathever you want with markdown.
+
+</code></pre>
+
+<p>Note the <strong>use</strong> part. These are global variables that we need in our template, to show the whole list of categories and tags.
+It should be provided as-is, with no changes. We will work on a fix so you won't need to do this every time you write a new post.</p>
+
+<p>Now <strong>commit</strong> the changes to save the file in your forked repository. When you open it again, GitHub wil automatically detect the markdown
+extension and provide a pretty neat markdown editor so you can write and preview your article.</p>
+
+<h3>4. Edit the file and write your article</h3>
+
+<p>No go to your recently created file, and click on the "Edit" button. You can now edit your file and use the <em>preview</em> functionality to see how it looks like.</p>
+
+<p><img src="/media/contributing/gh-editmd.png" alt="Edit the file" /></p>
+
+<p>When you are done, commit the changes, and afterwards, open a pull request to <strong>dev-human/dev-human</strong>.</p>
+
+<p>If you need some help with markdown, have a look at this very useful <a href="http://daringfireball.net/projects/markdown/syntax">markdown syntax guide</a>.</p>
             </div>
         </div><!--/.col-md-8-->
     </div><!--/.row-->
