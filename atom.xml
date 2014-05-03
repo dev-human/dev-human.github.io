@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title><![CDATA[dev-human]]></title>
+    <link href="/atom.xml" rel="self"/>
+    <link href="/"/>
+    <updated>2014-05-03T18:23:24+02:00</updated>
+    <id>/</id>
+        <generator uri="http://sculpin.io/">Sculpin</generator>
+            <entry>
+            <title type="html"><![CDATA[Hello Humans!]]></title>
+            <link href="/blog/2014/05/03/hello-humans"/>
+            <updated>2014-05-03T00:00:00+02:00</updated>
+            <id>/blog/2014/05/03/hello-humans</id>
+            <content type="html"><![CDATA[<p>Hi there!</p>
+
+<p><strong>dev-human</strong> is a project I've been mentally nurturing for about one year now. A couple friends heard me talking about it.
+But I could never bring it into reality, until now.</p>
+
+<p>After raving with complex development ideas that would take forever to implement, I just found out that the most important thing
+about this project is not code, or anything programming-related. The most important matter for building <em>dev-human</em>
+is <strong>content</strong>. And <strong>people</strong> able to create this content.</p>
+
+<p>So today I'm releasing dev-human 's bootstrap. It took me 2 days to build this base using <a href="https://sculpin.io/">Sculpin</a>, a static website generator
+from the great <a href="https://twitter.com/beausimensen">Beau Simensen</a>. I like things simple, and I like to focus on content instead of code, from time to time.</p>
+
+<p>I hope some of you will join me, contributing with your ideas - this is not the kind of project that can be built with one mind only.
+Do you have an interesting idea to share? A story? A theory? A hobby? Something funny? Something that sounded too off-topic for your
+technical blog? Then please, <a href="/contribute">contribute</a>.</p>
+]]></content>
+        </entry>
+    </feed>
