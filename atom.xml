@@ -3,14 +3,70 @@
     <title><![CDATA[dev-human]]></title>
     <link href="/atom.xml" rel="self"/>
     <link href="/"/>
-    <updated>2014-05-04T17:06:29+02:00</updated>
+    <updated>2014-05-06T17:46:54+02:00</updated>
     <id>/</id>
         <generator uri="http://sculpin.io/">Sculpin</generator>
             <entry>
+            <title type="html"><![CDATA[Dev Almighty]]></title>
+            <link href="/entries/2014/05/06/dev-almighty"/>
+            <updated>2014-05-06T00:00:00+02:00</updated>
+            <id>/entries/2014/05/06/dev-almighty</id>
+            <content type="html"><![CDATA[<p>Have you ever stopped to think about how <strong>lucky</strong> you are, developer? We live in a very unique <em>momentum</em> where us, software developers, are very privileged.
+And the reason is very simple: apart from a computer, we don't need any other raw materials to create <strong>amazing things</strong>.</p>
+
+<p>Naturally, you need knowledge. But you can get all necessary technical knowledge for free on the Internet! If you want to be a developer, it will be just a matter of time
+and patience. And practice. Can you imagine this being possible for other generations before you? Even today, if you compare programming with any other activities, I
+strongly believe that we have much more resources available for free on the Internet than any other professionals. Easy to study, easy to practice. Of course it should
+be like this, since <strong>we</strong> build the Internet.</p>
+
+<p>In fact, programming is not comparable with any other profession / activity, if you think about it. Where else do you create things only from your ideas? You might think about a
+writer or an artist, but this is completely different. We create things with <strong>behaviour</strong>. We create things that are <strong>dynamic</strong>. They change, they interact, they grow. Just like us!
+<em>We create software in our image and likeness</em>.</p>
+
+<p>And that's not the only reason why we are lucky. Think about how much the entrepreneurship scenario changed in the last decade. Forget about <em>Sillicon Valley</em> and the
+big companies: I'm talking about <strong>independent work</strong> by software developers. Small companies, or even individuals.</p>
+
+<p>When I think about entrepreneurship, I think about creating a new software or online service. I could build something all by myself, only me and my computer.
+When my <em>father</em> thinks about entrepreneurship, he thinks about factories (real ones, not the pattern) and employees. He thinks about raw materials and shipping.</p>
+
+<p>We don't need to worry about any of this. In fact, there are so many different opportunities today for us, that we don't even need to think about opening a company.</p>
+
+<p>Advertisement (like <a href="http://google.com/adsense">Google AdSense</a>) and independent book publishing (like <a href="http://leanpub.com">LeanPub</a>) are great examples on how you can use your programming skills to earn money
+in a completely independent way. No regular contracts, no clients. You have a shitload of work for some time, and after that you can just keep collecting your
+royalties.</p>
+
+<p>I'm not saying that it's <em>easy</em>. No, by no means. Working for a company is much easier, because they tell you what to do and you have your money guaranteed at the end of
+the month. But if you feel that you don't <em>fit</em> in a regular job - like I feel -, going independent is an amazing experience that might completely change your life!</p>
+
+<p>And a final piece of advice: if you want to endure the <em>independent path</em>, start slowly - don't just quit your job. You don't know yet if this is what you are looking for - like I said, it's not easy; feels
+much like leaving mom and daddy's home to live by yourself. Some people won't adapt. Find some time to work in parallel, and if everything goes well, you can make a decision based on real facts, not on projections.</p>
+
+<p>We, developers, we have the power of creation ;) Use it wisely!</p>
+]]></content>
+        </entry>
+            <entry>
+            <title type="html"><![CDATA[Bye Coding!]]></title>
+            <link href="/entries/2014/05/04/bye-coding"/>
+            <updated>2014-05-04T00:00:00+02:00</updated>
+            <id>/entries/2014/05/04/bye-coding</id>
+            <content type="html"><![CDATA[<p>I just wanted to give this a shot. So here we go. I want you to put everybody to think about what will happen on that day that you will stop coding for good. I mean I know that you may say now: I like it so much that I will never leave it. But truth said we will stop some day. You cannot think clearly in the same way all your life. Think of a disease. Yep! You got me now.</p>
+
+<p>My second stance on this is the question: How will you live your life? After giving so much importance to coding and now not being more acquainted the same with other things. Will it feel weird? What will you do? What I want to raise here is the thought of we seldom prepare for the future, and in particular this future, provided we don't pass away before. And this is not just bad news like preparing for a possible death but actually preparing for what is next when we get old.</p>
+
+<p>I remember seeing at a conference I went to some really old people and was thinking: How do they still code? I mean are they total vet consultants? I bet they don't care about good jobs anymore, they just care about their ideas and truly have fun with them. Well that made me think that I too should think about the future.</p>
+
+<p>Our brain get excited with twitter messages and interaction over a PR. Does it get excited in the same way with any other things around us in the physical life? What do you do now that will prepare you for the future whether is bright or dark? What could you do now to help you think clear what you want to do then? And how that can change how you behave or relate now with peers, at home, in the real world.</p>
+
+<p>My 5 nuevos soles.</p>
+
+<p>your friend :) cordoval</p>
+]]></content>
+        </entry>
+            <entry>
             <title type="html"><![CDATA[Hello Humans!]]></title>
-            <link href="/blog/2014/05/03/hello-humans"/>
+            <link href="/entries/2014/05/03/hello-humans"/>
             <updated>2014-05-03T00:00:00+02:00</updated>
-            <id>/blog/2014/05/03/hello-humans</id>
+            <id>/entries/2014/05/03/hello-humans</id>
             <content type="html"><![CDATA[<p>Hi there!</p>
 
 <p><strong>dev-human</strong> is a project I've been mentally nurturing for about one year now. A couple friends heard me talking about it.
@@ -22,6 +78,8 @@ is <strong>content</strong>. And <strong>people</strong> able to create this con
 
 <p>So today I'm releasing dev-human 's bootstrap. It took me 2 days to build this base using <a href="https://sculpin.io/">Sculpin</a>, a static website generator
 from the great <a href="https://twitter.com/beausimensen">Beau Simensen</a>. I like things simple, and I like to focus on content instead of code, from time to time.</p>
+
+<p>Please have a look at our <a href="/about">about page</a> to better understand what is <strong>dev-human</strong>.</p>
 
 <p>I hope some of you will join me, contributing with your ideas - this is not the kind of project that can be built with one mind only.
 Do you have an interesting idea to share? A story? A theory? A hobby? Something funny? Something that sounded too off-topic for your

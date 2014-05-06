@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Non-technical content for humans who code">
     <meta name="author" content="@erikaheidi">
-    <title>About &mdash; dev-human &mdash; Non-technical content for humans who code</title>
+    <title>Contributing to dev-human &mdash; dev-human &mdash; Non-technical content for humans who code</title>
     <link href="/assets/css/bootstrap.min.css" rel="stylesheet">
     <link href="/assets/css/font-awesome.min.css" rel="stylesheet">
     <link href="/assets/css/prettyPhoto.css" rel="stylesheet">
@@ -53,7 +53,7 @@
         <div class="collapse navbar-collapse">
             <ul class="nav navbar-nav navbar-right">
                 <li ><a href="/">Home</a></li>
-                <li  class="active" ><a href="/about">About</a></li>
+                <li ><a href="/about">About</a></li>
                 <li ><a href="/authors">Authors</a></li>
                 <li class="dropdown">
                     <a href="/blog/categories" class="dropdown-toggle" data-toggle="dropdown">Categories <i class="icon-angle-down"></i></a>
@@ -62,7 +62,7 @@
                                                 <li><a href="/entries/categories/News">News</a></li>
                                             </ul>
                 </li>
-                <li >
+                <li  class="active" >
                     <a href="/docs/contribute" class="dropdown-toggle" data-toggle="dropdown">Contribute <i class="icon-angle-down"></i></a>
                     <ul class="dropdown-menu">
                         <li><a href="/docs/contribute">Overview and Guidelines</a></li>
@@ -131,34 +131,61 @@
 
             <div class="col-sm-8 col-sm-pull-4">
                 <div class="blog">
-                    <h1>About dev-human</h1>
+                    
+<div class="blog-item">
+    <div class="blog-content">
+        <h1>Contributing to dev-human</h1>
 
-<p><strong>dev-human</strong> is a collaborative blog created by developers, for developers, focused on <strong>non-technical</strong>, or <strong>lightning</strong> content. Our goal is to promote other aspects
-of a programmer's life, getting over stereotypes and biased concepts often related to programmers. We are not robots!</p>
+        <p><strong>dev-human</strong> uses <a href="https://sculpin.io/">Sculpin</a>, a static website generator created by <a href="https://twitter.com/beausimensen">Beau Simensen</a> using <a href="http://silex.sensiolabs.org/">Silex</a>.
+But you don't need to worry about any of this: the only thing you need in order to contribute with an article for <strong>dev-human</strong> is a <a href="https://github.com/">GitHub</a> account.</p>
 
-<h2>The principles behind dev-human</h2>
+<p>The articles are written in <strong>markdown</strong>. You just need to create a new file in the project tree, following some simple rules, and make a pull request to submit your content.
+You don't even need to clone the repository in your local machine - all can be done through the GitHub interface. Please check the <a href="/docs/how-to-submit">detailed instructions on how to submit your article</a>.</p>
 
-<ol>
-<li><p>You are not a developer who happens to be human, you are a human who happens to be a developer.
-We all share this and, as such, we can't neglect our personal evolvement, in favor of our technical skills.
-Programming is deeply integrated into our lifes, but it cannot represent alone what you are.</p></li>
-<li><p>Programming requires much more than technical knowledge - it requires patience, creativity, curiosity, among other things that cannot be mimicked by a "robot".
-By improving the human being, you improve the developer.</p></li>
-<li><p>We are still learning how to deal with the Internet and the huge amount of information we are exposed every day.
-We are responsible for what the web is going to be in the future. We should talk about this and other non-technical subjects that will help building better developers.</p></li>
-<li><p>As a community, we are stronger. We share the jargons, the ups and downs of being a developer;
-we have similar problems, we have similar stories, and (often) we laugh at the same jokes.
-<strong>dev-human</strong> aims to be like the <em>social</em> in a conference: a place to relax and get inspired, with people who belongs to the same <em>world</em> as you.</p></li>
-</ol>
+<p>If you want to preview your article in the exact way it's going to be published on the website, than you'll need to
+have PHP and Sculpin installed in your local machine. Check the section <a href="/docs/running-locally">running dev-human locally</a>.</p>
 
-<h2>How you can help</h2>
+<h2>Guidelines</h2>
 
-<p>We can't make this project successful without the help of other developers who like to write and produce content. Please check the <a href="/docs/contribute"><strong>contributing</strong></a> section to find out more on how you can help.</p>
+<p>We kindly ask you to follow these simple guidelines before submitting your article:</p>
 
-<h2>The Future</h2>
+<ul>
+<li>Only submit content created by you. If your article is based on someone else's work, please add the references</li>
+<li>Try to be language-agnostic if possible</li>
+<li>Use a Spell Checker to make sure everything is OK before submitting</li>
+<li>Always be respectful.</li>
+</ul>
 
-<p>We start simple and small, but we have great plans for the future. We would love to bring <strong>dev-human</strong> to "real-life" with
-a printed magazine and, who knows, a conference featuring uniquely lightning talks. Let's see what we can do, since these things don't happen without a lot of help from collaborators :)</p>
+<h2>Topics</h2>
+
+<p>There are a large variety of topics that would be great to have in <em>dev-human</em>.
+This list is just to give you a base, a general idea of what we are looking for.</p>
+
+<p>Your personal opinions about:</p>
+
+<ul>
+<li>how Internet "affects" us</li>
+<li>productivity</li>
+<li>dealing with cognitive bias</li>
+<li>how to feel more fulfilled in life</li>
+<li>ways to be a better developer</li>
+<li>ways to be a better person</li>
+</ul>
+
+<p>Again, this is just a very basic starting point. There are many other subjects we could discuss here.
+Feel free to suggest more topics.</p>
+
+<p>If you are not sure whether your idea fits or not, or if you would like to contribute but you don't know what topic to choose, you can just ask!
+- join us at IRC (Freenode), on <strong>#dev-human</strong>, or send an email to <strong>hello@dev-human.com</strong>.</p>
+
+<h2>Republishing Content</h2>
+
+<p>If you already have some published articles that you think would be a good fit for dev-human, please submit!
+We will be happy to republish them here, including a link to the original post.</p>
+
+    </div>
+</div>
+
                 </div>
             </div><!--/.col-md-8-->
         </div><!--/.row-->
