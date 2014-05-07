@@ -2,9 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc></loc>
-    <lastmod>2014-05-06</lastmod>
+    <lastmod>2014-05-07</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
+  </url>
+    <url>
+    <loc>/entries/2014/05/06/finding-the-time-to-do-it-all</loc>
+    <lastmod>2014-05-06T00:00:00+02:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
   </url>
     <url>
     <loc>/entries/2014/05/06/dev-almighty</loc>
